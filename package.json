@@ -1,0 +1,14 @@
+{
+  "name": "rsp.bot",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@skyware/bot": "^0.3.7"
+  }
+}

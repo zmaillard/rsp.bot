@@ -1,0 +1,17 @@
+{
+  "name": "Ubuntu",
+  "image": "ghcr.io/zmaillard/devcontainer:v1.0",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/devcontainers-contrib/features/starship:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["asvetliakov.vscode-neovim", "esbenp.prettier-vscode", "redhat.vscode-yaml"]
+    }
+  },
+
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  "forwardPorts": [1313],
+  "postCreateCommand": "npm install -g bun"
+}
