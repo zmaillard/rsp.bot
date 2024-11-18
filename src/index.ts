@@ -1,5 +1,5 @@
 import { Bot } from "@skyware/bot";
-import { getSign } from "./random";
+import { getSign } from "./sign";
 import { getCommand } from "./commands";
 
 
