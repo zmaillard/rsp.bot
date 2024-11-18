@@ -1,15 +1,12 @@
-import { Bot, EventStrategy } from "@skyware/bot";
+import { Bot } from "@skyware/bot";
 import { getSign } from "./random";
 import { getCommand } from "./commands";
 
 
 console.log(getSign(getCommand("")));
 
-const bot = new Bot({
-  //eventEmitterOptions: {
-  //  strategy:  EventStrategy.Jetstream,
-  //}
-});
+const bot = new Bot();
+
 await bot.login({
   identifier: process.env.BSKY_USERNAME,
   password: process.env.BSKY_PASSWORD,

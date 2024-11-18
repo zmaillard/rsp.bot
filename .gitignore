@@ -176,3 +176,5 @@ dist
 
 mise.local.toml
 bot.db
+
+build/

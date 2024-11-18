@@ -1,0 +1,6 @@
+*.md
+.env
+.gitignore
+.git/
+.devcontainer/
+**/*.test.js
