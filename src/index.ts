@@ -1,9 +1,9 @@
 import { Bot } from "@skyware/bot";
 import { getSign } from "./sign";
 import { getCommand } from "./commands";
+import { Database } from "bun:sqlite";
 
-
-console.log(getSign(getCommand("")));
+const db = new Database("bot.db");
 
 const bot = new Bot();
 
