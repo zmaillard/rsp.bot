@@ -35,6 +35,10 @@ export const getSign = (db: Database, cmd: Command): Sign => {
   }
 };
 
+export const buildLink = (sign: Sign): string => {
+  return `https://roadsign.pictures/sign/${sign.imageid}`;
+}
+
 export const buildSignUrl = (sign: Sign): string => {
   return `https://sign.roadsign.pictures/${sign.imageid}/${sign.imageid}_m.jpg`;
 };
@@ -46,3 +50,7 @@ export const buildLocationInformation = (item: Sign) => {
     }
     return base;
   };
+
+export const buildS3Key = (sign: Sign): string => {
+  return `${sign.imageid}/${sign.imageid}_m.jpg`;
+}
