@@ -7,8 +7,8 @@ export interface Sign {
   imageid: string;
   title: string;
   state: string;
-  place: string;
-  county: string;
+  place?: string;
+  county?: string;
   country: string;
 }
 
@@ -39,9 +39,6 @@ export const buildLink = (sign: Sign): string => {
   return `https://roadsign.pictures/sign/${sign.imageid}`;
 }
 
-export const buildSignUrl = (sign: Sign): string => {
-  return `https://sign.roadsign.pictures/${sign.imageid}/${sign.imageid}_m.jpg`;
-};
 
 export const buildLocationInformation = (item: Sign) => {
     let base = `${item.state}, ${item.country}`;
