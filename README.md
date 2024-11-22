@@ -1,6 +1,6 @@
 # rsp.bot
 
-[Latest Release](https://github.com/octo-org/octo-repo/releases/latest)
+[Latest Release](https://github.com/zmaillard/rsp.bot/releases/latest)
 
 Bot (that will soon be) behind [@roadsign.pictures](https://bsky.app/profile/roadsign.pictures).  Built using [Bun](https://bun.sh) and on the nice foundation of [Skyware](https://skyware.js.org).
 
