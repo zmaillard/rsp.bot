@@ -1,9 +1,10 @@
 import { Bot } from "@skyware/bot";
 import { getSign } from "./sign";
 import { getCommand } from "./commands";
+import { Database } from "bun:sqlite";
+import { buildPost } from "./post";
 
-
-console.log(getSign(getCommand("")));
+const db = new Database("bot.db");
 
 const bot = new Bot();
 
@@ -13,7 +14,8 @@ await bot.login({
 });
 
 bot.on("mention", async (message) => {
-  console.log(message.text);
-
-   //await message.reply("Hello!");
+  const command = getCommand(message.text);
+  const sign = getSign(db, command);
+  const post = await buildPost(sign);
+  await message.reply(post);
 })

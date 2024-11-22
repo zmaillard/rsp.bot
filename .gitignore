@@ -178,3 +178,4 @@ mise.local.toml
 bot.db
 
 build/
+.clj-kondo/
