@@ -18,3 +18,13 @@ The following environment variables are needed to run the application:
 |AWS_SECRET_ACCESS_KEY |  Secret key corresponding to `AWS_ACCESS_KEY_ID` |
 | AWS_REGION | Region content is hoted in |
 | AWS_ENDPOINT_URL |  Optional endpoint url |
+
+## Local Development
+
+Running Bot:
+```bash
+bun install
+bun run run
+```
+
+Run Tests: `bun test`
