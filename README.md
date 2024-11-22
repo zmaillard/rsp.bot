@@ -3,9 +3,9 @@
 Bot (that will soon be) behind [@roadsign.pictures](https://bsky.app/profile/roadsign.pictures).  Built using [Bun](https://bun.sh) and on the nice foundation of [Skyware](https://skyware.js.org).
 
 ## Usage
-`!random` - Retreive a random road sign
-`!state <statename>` - Retreive a random road sign from the state/state equivalent specified.
-`!country <countryname>` - Retreive a random road sign from the country equivalent specified.  At this time only United States, Canada, Costa Rica and México are supported.
+- `!random` - Retreive a random road sign
+- `!state <statename>` - Retreive a random road sign from the state/state equivalent specified.
+- `!country <countryname>` - Retreive a random road sign from the country equivalent specified.  At this time only United States, Canada, Costa Rica and México are supported.
 
 ## Configuration
 
