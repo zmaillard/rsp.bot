@@ -15,6 +15,7 @@
   "dependencies": {
     "@aws-sdk/client-s3": "^3.693.0",
     "@skyware/bot": "^0.3.7",
-    "@smithy/types": "^3.7.1"
+    "@smithy/types": "^3.7.1",
+    "croner": "^9.0.0"
   }
 }
