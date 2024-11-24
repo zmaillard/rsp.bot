@@ -18,8 +18,9 @@ The following environment variables are needed to run the application:
 |BSKY_PASSWORD|Password associated with the `BSKY_USERNAME` handle |
 |AWS_ACCESS_KEY_ID | Account id with access to storage bucket |
 |AWS_SECRET_ACCESS_KEY |  Secret key corresponding to `AWS_ACCESS_KEY_ID` |
-| AWS_REGION | Region content is hoted in |
-| AWS_ENDPOINT_URL |  Optional endpoint url |
+|AWS_REGION | Region content is hoted in |
+|AWS_ENDPOINT_URL |  Optional endpoint url |
+|AUTO_POST_CRON_SCHEDULE |  Optional Crontab For Posting Random Signs |
 
 ## Local Development
 
