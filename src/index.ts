@@ -4,6 +4,8 @@ import { getCommand } from "./commands";
 import { Database } from "bun:sqlite";
 import { buildPost } from "./post";
 
+console.log("Starting bot");
+
 const db = new Database("bot.db");
 
 const bot = new Bot();

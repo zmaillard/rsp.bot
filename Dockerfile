@@ -33,4 +33,4 @@ COPY --from=prerelease /usr/src/app/bot.db .
 
 # run the app
 USER bun
-ENTRYPOINT [ "bun", "run", "index.ts" ]
+ENTRYPOINT [ "bun", "index.ts" ]
